@@ -1,0 +1,15 @@
+{
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "/usr/bin/bash",
+      "args": []
+    }
+  },
+  "terminal.integrated.profiles.windows": {},
+  "terminal.integrated.shellArgs.linux": [
+    "-i",
+    "-c",
+    "[ -r \"${workspaceFolder:-.}/venv/bin/activate\" ] && . \"${workspaceFolder:-.}/venv/bin/activate\"; exec bash"
+  ]
+}

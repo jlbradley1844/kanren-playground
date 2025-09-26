@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: mcp-shim
+Version: 0.0.0
+Summary: Minimal MCP server shim template
+Author: You
+License-File: LICENSE
+Dynamic: license-file

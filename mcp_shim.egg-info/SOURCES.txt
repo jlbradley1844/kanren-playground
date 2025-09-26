@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+mcp/__init__.py
+mcp/__main__.py
+mcp/prompts.py
+mcp/resources.py
+mcp/server.py
+mcp/tools.py
+mcp_shim.egg-info/PKG-INFO
+mcp_shim.egg-info/SOURCES.txt
+mcp_shim.egg-info/dependency_links.txt
+mcp_shim.egg-info/entry_points.txt
+mcp_shim.egg-info/top_level.txt
+tests/test_imports.py

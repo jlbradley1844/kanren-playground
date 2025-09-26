@@ -1,0 +1,20 @@
+{
+  "name": "Docker Python cimg",
+  "image": "docker.io/cimg/python:3.13.7-node",
+  "runArgs": [ "--init" ], 
+  "workspaceFolder": "/workspace",
+  "mounts": [
+    "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached"
+  ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ms-python.python"
+      ],
+      "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+      }
+    }
+  }
+}
