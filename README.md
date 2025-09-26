@@ -1,6 +1,8 @@
 mcp-shim — Minimal MCP server shim
 ===================================
 
+[![CI](https://github.com/jlbradley1844/kanren-playground/actions/workflows/ci.yml/badge.svg)](https://github.com/jlbradley1844/kanren-playground/actions/workflows/ci.yml)
+
 This repository contains a minimal, opinionated template for building an "MCP"-style server in Python.
 It's intentionally small so you can extend it with your real resource, tool and prompt implementations.
 
